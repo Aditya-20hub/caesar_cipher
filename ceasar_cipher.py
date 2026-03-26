@@ -24,3 +24,8 @@ def shift_txt(txt: str, shift: int) -> str:
         else:
             result += char
     return result
+
+
+
+def encryption(txt: str, shift: int) -> str:
+    return shift_txt(txt, shift)
