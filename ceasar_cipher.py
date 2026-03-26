@@ -33,6 +33,11 @@ def shift_txt(txt: str, shift: int) -> str:
 
 
 def encryption(txt: str, shift: int) -> str:
+    """
+    This function performs encryption using the Caesar cipher technique.
+    It will add the text for encryption.
+    """
+
     return shift_txt(txt, shift)
 
 
