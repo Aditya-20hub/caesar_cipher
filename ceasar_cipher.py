@@ -29,3 +29,7 @@ def shift_txt(txt: str, shift: int) -> str:
 
 def encryption(txt: str, shift: int) -> str:
     return shift_txt(txt, shift)
+
+
+def decryption(txt: str, shift: int) -> str:
+    return shift_txt(txt, -shift)
