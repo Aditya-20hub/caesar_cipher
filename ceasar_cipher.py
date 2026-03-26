@@ -33,3 +33,13 @@ def encryption(txt: str, shift: int) -> str:
 
 def decryption(txt: str, shift: int) -> str:
     return shift_txt(txt, -shift)
+
+
+if __name__ == '__main__':
+    txt = input("Enter the text: ")
+    shift = int(input("Enter the shift number: "))
+
+    enc= encryption(txt, shift)
+    print(enc)
+    dec = decryption(enc, shift)
+    print(dec)
