@@ -9,6 +9,11 @@ to perform both encryption and decryption using the Caesar cipher technique.
 """
 
 def shift_txt(txt: str, shift: int) -> str:
+    """
+    This function shift it is responsible for shifting characters in a given text
+    for encryption it will Add the text and for decrypt it will subtract the encrypted text.
+    """
+
     digits = "0123456789"
     symbols = "!@#$%^&*()_+-=[]{};:,.<>/?"
     result = ""
