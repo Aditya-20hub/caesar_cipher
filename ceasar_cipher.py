@@ -38,7 +38,7 @@ def encryption(txt: str, shift: int) -> str:
     This function performs encryption using the Caesar cipher technique.
     It will add the text for encryption.
     """
-
+    Adding this line for the example for kt
     return shift_txt(txt, shift)
 
 
