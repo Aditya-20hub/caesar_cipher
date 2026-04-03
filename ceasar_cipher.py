@@ -28,6 +28,7 @@ def shift_txt(txt: str, shift: int) -> str:
             result += symbols[(symbols.index(char) + shift) % len(symbols)]
         else:
             result += char
+
     return result
 
 
@@ -46,7 +47,7 @@ def decryption(txt: str, shift: int) -> str:
     This function performs decryption using the Caesar cipher technique.
     It will Sub the text for encryption.
     """
-
+    pass
     return shift_txt(txt, -shift)
 
 
