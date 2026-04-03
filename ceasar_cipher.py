@@ -15,7 +15,7 @@ def shift_txt(txt: str, shift: int) -> str:
     """
 
     digits = "0123456789"
-    symbols = "!@#$%^&*()_+-=[]{};:,.<>/?"
+    symbols = "!@#$%^&*()_+-=[]{};:,.<>/?|~`"
     result = ""
     for char in txt:
         if char.isupper():
