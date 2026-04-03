@@ -49,7 +49,9 @@ def decryption(txt: str, shift: int) -> str:
     """
     pass
     return shift_txt(txt, -shift)
-
+    sam = "Hello"
+    enc = encryption(sam, -shift)
+    dec = decryption(enc, -shift)
 
 if __name__ == '__main__':
     txt = input("Enter the text: ")
